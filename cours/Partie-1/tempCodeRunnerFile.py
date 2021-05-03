@@ -1,1 +1,0 @@
-égal à {int(premier_chiffre)+int(deuxieme_chiffre)}")
