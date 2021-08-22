@@ -27,6 +27,7 @@ def mult(a, b):
 def div(a, b):
     return float(input(f"{a}/{b} = ")) == a/b
 
-for i in range(QUESTIONS):
-    print(f"Question n° {i+1}/{QUESTIONS} :")
-    question(i)
+if __name__ == "__main__":
+    for i in range(QUESTIONS):
+        print(f"Question n° {i+1}/{QUESTIONS} :")
+        question(i)
