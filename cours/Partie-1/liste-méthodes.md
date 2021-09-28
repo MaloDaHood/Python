@@ -1,4 +1,5 @@
 capitalize() #Converti le premier caractère de la chaîne en majuscule
+</br>
 casefold() #Converti la phrase en minuscule
 center() #Retourne une chaîne de caractères centrée
 count() #Retourne le nombre de fois que la chaîne spécifiée est trouvée
