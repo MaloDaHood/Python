@@ -1,6 +1,6 @@
 import math
 print("Calcul IMC")
-p: int = int(input("Quel est votre poid en Kg ?"))
+p: int = int(input("Quel est votre poids en Kg ?"))
 t: int = int(input("Quel est votre taille en centimètres ?"))
 x: float = t/100
 imc: float = p/x**2
