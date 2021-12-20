@@ -1,17 +1,17 @@
 ##### DON'T TOUCH
-tests :list[tuple[str, str]] = [
-    ("hello", "olleh"),
-    ("kayak", "kayak"),
-    ("z", "z"),
-    ("PyThOn", "nOhTyP"),
-    ("12345", "54321")
+tests :list[str] = [
+    "hello",
+    "kayak",
+    "z",
+    "PyThOn",
+    "12345"
 ]
 
 def test(function) -> None :
     for test in tests :
         print(
-            f"{test[0]} == {function(test[0])} :",
-            "✅" if function(test[0]) == test[1]
+            f"{test} == {function(test)} :",
+            "✅" if function(test) == test[::-1]
             else "❌"
         )
 #####
