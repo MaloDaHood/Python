@@ -14,4 +14,4 @@ if __name__ == "__main__" :
     print(f"Pi = {pi}")
     end: float = time.time()
     temps: float = end - start
-    print(f"Temps d'éxécution : {temps:.3}ms")
+    print(f"Temps d'exécution : {temps:.3}ms")
